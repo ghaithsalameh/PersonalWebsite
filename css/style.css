@@ -42,6 +42,7 @@ a:link,
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 108px;
+    padding-bottom: 108px;
 }
 .button,
 .calltoaction{
@@ -66,4 +67,44 @@ a:link,
   .cards{
       display: flex;
       flex-direction: row;
+      gap: 24px;
+  }
+  .card{
+      padding: 24px;
+      border-style: solid; 
+      border-width: thin; 
+      border-color: blue;
+  }
+  .info{
+      padding-top: 52px;
+      padding-bottom: 52px;
+  }
+  .testimony{
+      background-color: #E5E7EB;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-left: 116px;
+      padding-right: 116px;
+  }
+  
+  .quote{
+      font-size: 36px;
+      font-style: italic;
+      
+
+  }
+  .calltoaction{
+      margin: 108px;
+      display: flex;
+      padding:32px;
+      gap:64px;
+  }
+  .instructions{
+      font-size: 12px;
+  }
+  .button2{ 
+        border-color: #ff9800;
+        color: orange;
+      
   }
